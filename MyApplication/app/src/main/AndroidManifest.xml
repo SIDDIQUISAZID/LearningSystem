@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siddiqui.myapplication">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/homepage"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Learn Java"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Section"
+            android:layout_gravity="center_vertical"
+            android:label="Programing"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+
+        <activity android:name=".JavaPrograming"
+
+            android:layout_gravity="center_vertical"
+            android:label="Simple Programs"
+            android:parentActivityName=".Section">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Section" />
+
+        </activity>
+
+
+        <activity android:name=".Helloworld"
+            android:layout_gravity="center_vertical"
+            android:label="Hello World!"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+
+        <activity android:name=".JavaclassExample"
+            android:layout_gravity="center_vertical"
+            android:label="Java Class Example"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+
+        </activity>
+
+
+
+
+        <activity android:name=".circuleArea"
+            android:layout_gravity="center_vertical"
+            android:label="Calculate the Circle Array"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+
+        <activity android:name=".circulePerimeter"
+            android:layout_gravity="center_vertical"
+            android:label="Calculate Circle Perimeter"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+        <activity android:name=".rectangularArea"
+            android:layout_gravity="center_vertical"
+            android:label="Rectangular Area"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+        <activity android:name=".rectangularPerimeter"
+            android:layout_gravity="center_vertical"
+            android:label="Rectangular Perimeter"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+        <activity android:name=".evenOdd"
+            android:layout_gravity="center_vertical"
+            android:label="Find the odd and even number"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+        <activity android:name=".largestSmallest"
+            android:layout_gravity="center_vertical"
+            android:label="Find the largest and smallest number"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+        <activity android:name=".factorial"
+            android:layout_gravity="center_vertical"
+            android:label="Find the Factorial"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+        <activity android:name=".reverce"
+            android:layout_gravity="center_vertical"
+            android:label="Reverce the number"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+        <activity android:name=".swapNumber"
+            android:layout_gravity="center_vertical"
+            android:label="Swap the two number"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+        <activity android:name=".armstrongnumber"
+            android:layout_gravity="center_vertical"
+            android:label="Find the armstrong number"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+        <activity android:name=".palidrome"
+            android:layout_gravity="center_vertical"
+            android:label="Find the palidrome number"
+            android:parentActivityName=".JavaPrograming">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JavaPrograming" />
+            </activity>
+
+
+
+        <activity android:name=".atternprogram"
+            android:layout_gravity="center_vertical"
+            android:label="Pattern Programs"
+            android:parentActivityName=".Section">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Section" />
+        </activity>
+
+
+
+            />
+        <activity android:name=".arraystring"
+            android:layout_gravity="center_vertical"
+            android:label="Array,String Concept"
+            android:parentActivityName=".Section">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Section"
+
+            />
+        </activity>
+        <activity android:name=".Oops"
+            android:layout_gravity="center_vertical"
+            android:label="Oops Concepts"
+            android:parentActivityName=".Section">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Section" />
+
+            </activity>
+
+        <activity android:name=".Sort"
+            android:layout_gravity="center_vertical"
+            android:label="Sorting Programs"
+            android:parentActivityName=".Section">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Section" />
+
+            />
+        </activity>
+
+
+        <activity android:name=".Thread"
+            />
+        <activity android:name=".Jdbc"
+
+            android:layout_gravity="center_vertical"
+            android:label="Jdbc Programing"
+            android:parentActivityName=".Section">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Section" />
+
+            />
+        </activity>
+
+
+        <activity android:name=".Exeption"
+
+            android:layout_gravity="center_vertical"
+            android:label="Exception Handling"
+            android:parentActivityName=".Section">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Section" />
+            </activity>
+
+        <activity android:name=".Servlet"
+            android:layout_gravity="center_vertical"
+            android:label="Servlet Concept"
+            android:parentActivityName=".Section">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Section" />
+
+        </activity>
+        <activity android:name=".Jsp"
+            android:layout_gravity="center_vertical"
+            android:label="Jsp Concept"
+            android:parentActivityName=".Section">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Section" />
+        </activity>
+
+
+        <activity android:name=".Hibernate"
+            android:layout_gravity="center_vertical"
+            android:label="Hibernate Concepts"
+            android:parentActivityName=".Section">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Section" />
+            </activity>
+
+        <activity android:name=".Struts"
+
+            android:layout_gravity="center_vertical"
+            android:label="Struts2 Concepts"
+            android:parentActivityName=".Section">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Section" />
+        </activity>
+
+
+        <activity android:name=".Ptrn1"
+            android:layout_gravity="center_vertical"
+            android:label="Petterns program"
+            android:parentActivityName=".atternprogram">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".atternprogram" />
+        </activity>
+
+
+        <activity android:name=".Ptrn2"
+            android:layout_gravity="center_vertical"
+            android:label="Petterns program"
+            android:parentActivityName=".atternprogram">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".atternprogram" />
+        </activity>
+
+
+
+        <activity android:name=".Ptrn3"
+            android:layout_gravity="center_vertical"
+            android:label="Petterns program"
+            android:parentActivityName=".atternprogram">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".atternprogram" />
+        </activity>
+
+
+        <activity android:name=".Ptrn4"
+            android:layout_gravity="center_vertical"
+            android:label="Petterns program"
+            android:parentActivityName=".atternprogram">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".atternprogram" />
+        </activity>
+
+
+        <activity android:name=".Ptrn5"
+            android:layout_gravity="center_vertical"
+            android:label="Petterns program"
+            android:parentActivityName=".atternprogram">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".atternprogram" />
+        </activity>
+
+        />
+        <activity android:name=".Ptrn6"
+            android:layout_gravity="center_vertical"
+            android:label="Petterns program"
+            android:parentActivityName=".atternprogram">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".atternprogram" />
+        </activity>
+
+        />
+        <activity android:name=".Ptrn7"
+            android:layout_gravity="center_vertical"
+            android:label="Petterns program"
+            android:parentActivityName=".atternprogram">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".atternprogram" />
+        </activity>
+
+
+        <activity android:name=".PtrnProgram1" />
+        <activity android:name=".PtrnProgram2" />
+        <activity android:name=".PtrnProgram3" />
+        <activity android:name=".PtrnProgram4" />
+        <activity android:name=".PtrnProgram5" />
+        <activity android:name=".PtrnProgram6" />
+        <activity android:name=".PtnrProgram7" />
+
+        <activity android:name=".Sort_Array_search"
+            android:layout_gravity="center_vertical"
+            android:label="Sorting programing"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".arraystring" />
+            </activity>
+
+
+        <activity android:name=".Array_reverce"
+            android:layout_gravity="center_vertical"
+            android:label="Array Reverce programming"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".arraystring" />
+            </activity>
+
+        <activity android:name=".Maxim_Min_Eli"
+            android:layout_gravity="center_vertical"
+            android:label="Maximum and Minimum Element in array"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+            </activity>
+        <activity android:name=".Merge_Array"
+
+            android:layout_gravity="center_vertical"
+            android:label="Marge two Array"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".arraystring" />
+            </activity>
+
+        <activity android:name=".Remove_Eliment"
+            android:layout_gravity="center_vertical"
+            android:label="Removing Element in array"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".arraystring" />
+            </activity>
+        <activity android:name=".Remove_into_anotherarray"
+            android:layout_gravity="center_vertical"
+            android:label="Removing one array to anothe array"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".arraystring" />
+            </activity>
+
+
+        <activity android:name=".StringinArray"
+            android:layout_gravity="center_vertical"
+            android:label="String in array"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+            </activity>
+
+
+        <activity android:name=".CompireArray"
+            android:layout_gravity="center_vertical"
+            android:label="Compare two String in array"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".arraystring" />
+            </activity>
+
+        <activity android:name=".DimentionArray_2"
+            android:layout_gravity="center_vertical"
+            android:label="Overloading program"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+            </activity>
+        <activity android:name=".StringCmpre"
+            android:layout_gravity="center_vertical"
+            android:label="String Comparing"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".arraystring" />
+            </activity>
+
+        <activity android:name=".CancatenationString"
+            android:layout_gravity="center_vertical"
+            android:label="String Concatenation"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".arraystring" />
+            </activity>
+        <activity android:name=".BufferString"
+            android:layout_gravity="center_vertical"
+            android:label="Buffer String"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".arraystring" />
+            </activity>
+        <activity android:name=".StringReverce"
+            android:layout_gravity="center_vertical"
+            android:label="String Reverce"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".arraystring" />
+            </activity>
+
+        <activity android:name=".Object_Array"
+            android:layout_gravity="center_vertical"
+            android:label="String object in array"
+            android:parentActivityName=".arraystring">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".arraystring" />
+            </activity>
+
+
+
+
+
+
+        <activity android:name=".OverloadingExample"
+
+            android:layout_gravity="center_vertical"
+            android:label="Overloading program"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+
+            </activity>
+        <activity android:name=".OverridingInJava"
+            android:layout_gravity="center_vertical"
+            android:label="Overriding program"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+
+        </activity>
+
+
+        <activity android:name=".ExeptionHandling"
+            android:layout_gravity="center_vertical"
+            android:label="Exception Handling in method overrinding"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+            </activity>
+
+        <activity android:name=".ConstructorOverloading"
+            android:layout_gravity="center_vertical"
+            android:label="Constructor Overloading"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+            </activity>
+        <activity android:name=".PrivetConstractor"
+            android:layout_gravity="center_vertical"
+            android:label="Private Constructor"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+            </activity>
+        <activity android:name=".SuperKeyword"
+            android:layout_gravity="center_vertical"
+            android:label="Super Keyword programing"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+        </activity>
+
+        <activity android:name=".AbstractInterface"
+            android:layout_gravity="center_vertical"
+            android:label="Abstract class v interface"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+            </activity>
+
+        <activity android:name=".AbstractMethod"
+            android:layout_gravity="center_vertical"
+            android:label="Abstract Methods"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+            </activity>
+
+        <activity android:name=".StaticMethod"
+            android:layout_gravity="center_vertical"
+            android:label="Static Methods"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+            </activity>
+
+        <activity android:name=".MultipleStatic"
+            android:layout_gravity="center_vertical"
+            android:label="Multiple Static Blocks"
+            android:parentActivityName=".Oops">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Oops" />
+            </activity>
+        <activity android:name=".BubbleSort" />
+        <activity android:name=".SelectionSort" />
+        <activity android:name=".InsertionSort" />
+        <activity android:name=".QuickSort" />
+        <activity android:name=".MergeSort" />
+        <activity android:name=".CreateTable" />
+        <activity android:name=".InsertTable" />
+        <activity android:name=".SelectTable" />
+        <activity android:name=".UpdateTable" />
+        <activity android:name=".DeleteTable" />
+
+
+        <activity android:name=".InterVeiwQuestion"
+            android:layout_gravity="center_vertical"
+            android:label="InterVeiw Question"
+            android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+</activity>
+        <activity android:name=".ArticalMatterial"
+
+            android:layout_gravity="center_vertical"
+            android:label="Articals"
+            android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
+
+        <activity android:name=".ObjectandClassInJava"
+            android:layout_gravity="center_vertical"
+            android:label="Object and class in java"
+            android:parentActivityName=".ArticalMatterial">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ArticalMatterial" />
+            </activity>
+        <activity android:name=".ConstructorInJava"
+            android:layout_gravity="center_vertical"
+            android:label="Constructor in java"
+            android:parentActivityName=".ArticalMatterial">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ArticalMatterial" />
+            </activity>
+        <activity android:name=".JavaStaticKeyword"
+            android:layout_gravity="center_vertical"
+            android:label="Java Static Keyword"
+            android:parentActivityName=".ArticalMatterial">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ArticalMatterial" />
+            </activity>
+        <activity android:name=".ThiskeywordInJava"
+            android:layout_gravity="center_vertical"
+            android:label="This kewword in java"
+            android:parentActivityName=".ArticalMatterial">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ArticalMatterial" />
+            </activity>
+        <activity android:name=".SuperKeywordJava"
+            android:layout_gravity="center_vertical"
+            android:label="Super keyword in java"
+            android:parentActivityName=".ArticalMatterial">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ArticalMatterial" />
+            </activity>
+        <activity android:name=".FinalKeyWordJava"
+            android:layout_gravity="center_vertical"
+            android:label="Final keyword in java"
+            android:parentActivityName=".ArticalMatterial">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ArticalMatterial" />
+            </activity>
+        <activity android:name=".JavaArrayArticles"
+            android:layout_gravity="center_vertical"
+            android:label="Array articles"
+            android:parentActivityName=".ArticalMatterial">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ArticalMatterial" />
+            </activity>
+        <activity android:name=".HibernateFramework"
+            android:layout_gravity="center_vertical"
+            android:label="Hibernate Framework"
+            android:parentActivityName=".ArticalMatterial">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ArticalMatterial" />
+            </activity>
+        <activity android:name=".Struts2"
+            android:layout_gravity="center_vertical"
+            android:label="Struts2 Framework"
+            android:parentActivityName=".ArticalMatterial">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ArticalMatterial" />
+            </activity>
+        <activity android:name=".SpringFramework"
+            android:layout_gravity="center_vertical"
+            android:label="Spring Framework"
+            android:parentActivityName=".ArticalMatterial">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ArticalMatterial" />
+
+        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

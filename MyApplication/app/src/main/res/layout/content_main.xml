@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddiqui.myapplication.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/programing"
+            android:onClick="Click_funcition"
+
+
+            />
+
+        <ImageView
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/article1"
+            android:onClick="Click_funcition3"
+
+            />
+
+    </LinearLayout>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Programing"
+            android:onClick="Click_funcition"
+
+            android:textColor="@color/abc_search_url_text" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Articles"
+            android:onClick="Click_funcition3"
+            android:layout_gravity="center"
+
+            android:textColor="@color/abc_search_url_text" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="50dp"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Click_funcition2"
+            android:src="@drawable/interview"
+
+            />
+
+        <ImageView
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:id="@+id/askd"
+            android:src="@drawable/ask"
+
+            />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="50dp"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Interview \n Question"
+            android:onClick="Click_funcition2"
+            android:textColor="@color/abc_search_url_text"
+            android:layout_gravity="center_vertical" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Ask \n Queries"
+            android:id="@+id/query"
+
+            android:textColor="@color/abc_search_url_text"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="40dp"
+        android:layout_height="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Practice"
+        android:textColor="@color/colorAccent"/>
+
+
+</LinearLayout>
